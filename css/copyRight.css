@@ -1,8 +1,8 @@
 .copyrightBg{background:#fff;}
 .copyRight{min-width:320px;}
-.copyRight .copyLogo{width:75.5%; max-width:483px; padding:75px 0 20px 0; margin:0 auto;}
+.copyRight .copyLogo{width:75.5%; max-width:483px; padding:60px 0 20px 0; margin:0 auto;}
 .copyRight .copyLogo img{width:100%; max-width:483px;}
-.copyRight .buttons{width:70%; max-width:500px; margin:0 auto;background:#f13b2d;}
+.copyRight .buttons{width:78%; max-width:500px; margin:0 auto;background:#f13b2d;}
 
 
 .buttons a { height:50px;line-height:50px;display:block;color:#fff;text-align:center;}
