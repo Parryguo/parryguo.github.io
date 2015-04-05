@@ -1,0 +1,113 @@
+/*------------------------------------------------------------
+
+	#Reset & Basics (Inspired by E. Meyers)
+
+--------------------------------------------------------------*/
+
+body { line-height: 1; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; }
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, caption, canvas, center, cite, code,
+dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, form, footer, header, hgroup, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav,object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, tt, table, tbody, textarea, tfoot, thead, time, tr, th, td, u, ul, var, video  {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    white-space: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+:focus { outline: 0; }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+
+
+
+body {
+    background-color: #202426;
+}
+
+/* Logo style */
+
+.logo {
+    display: block;
+    text-align: center;
+    margin: 98px 0 40px 0;
+
+}
+
+/* Nav style */
+
+ul#nav {
+    width:400px;
+
+    margin:0 auto;
+
+
+}
+ul#nav li{
+    width:100px;
+    display: inline;
+    list-style: none;
+    float:left;
+
+
+
+
+}
+
+ul#nav li a{
+    width:100px;
+    height:25px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    color:#889398;
+
+
+}
+
+ul#nav li a:hover{
+    color:#FFF;
+
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix{*zoom:1;}
+
+
+#dribbble {
+
+    width:930px;
+    margin: 100px auto 0 auto;
+}
+
+#dribbble img { margin-left:10px;margin-bottom: 10px;}
+#dribbble img:first-child {margin-left:none; }
+
+#dribbble span{
+    display:none;
+}
