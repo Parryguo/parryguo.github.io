@@ -39,7 +39,7 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 
 
 body {
-    background-color: #202426;
+    background-color: #202125;
 }
 
 /* Logo style */
@@ -77,7 +77,7 @@ ul#nav li a{
     line-height: 25px;
     text-align: center;
     display: inline-block;
-    color:#889398;
+    color:#9ba4a8;
 
 
 }
