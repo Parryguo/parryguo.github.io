@@ -78,12 +78,14 @@ ul#nav li a{
     text-align: center;
     display: inline-block;
     color:#9ba4a8;
+    text-decoration: none;
 
 
 }
 
 ul#nav li a:hover{
     color:#FFF;
+
 
 
 }
@@ -108,6 +110,24 @@ ul#nav li a:hover{
 #dribbble img { margin-left:10px;margin-bottom: 10px;}
 #dribbble img:first-child {margin-left:none; }
 
+#dribbble h6 {
+    color: #9ba4a8;
+    text-align:center;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
 #dribbble span{
     display:none;
+}
+
+hr { width:930px;height:1px;margin:100px auto 20px;border:none;border-bottom: 1px solid #2e3031;}
+#copyrihgt {
+
+    width:930px;
+    text-align: center;
+    font-size: 14px;
+    margin:0 auto;
+    color:#889398;
+
 }
