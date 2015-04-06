@@ -1,8 +1,5 @@
 var apiURL = "https://api.dribbble.com/v1/users/14318/shots?callback=?"
 
-
-
-
 $.getJSON(apiURL,{
 
     per_page:8,
