@@ -39,6 +39,7 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 
 
 body {
+    font-family:"Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #202125;
 }
 
@@ -55,8 +56,8 @@ body {
 
 ul#nav {
     width:400px;
+    margin:0 auto 150px;
 
-    margin:0 auto;
 
 
 }
@@ -99,6 +100,17 @@ ul#nav li a:hover{
 .clearfix{*zoom:1;}
 
 
+h4 {
+   width:100%;
+    height:30px;
+
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+
 #dribbble {
 
     width:930px;
@@ -111,9 +123,9 @@ ul#nav li a:hover{
 #dribbble h6 {
     color: #9ba4a8;
     text-align:center;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
-    margin-bottom: 30px;
+    margin:150px 0 30px;
 }
 #dribbble span{
     display:none;
